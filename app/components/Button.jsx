@@ -1,5 +1,5 @@
 "use client";
-function Button(text) {
+function Button({ text }) {
   const handleDownload = () => {
     try {
       const link = document.createElement("a");
