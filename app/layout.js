@@ -6,6 +6,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Toon Trails",
   description: "Adventure Awaits in Every Frame!",
+  icons: {
+    icon: ["/logo.png"],
+  },
 };
 
 export default function RootLayout({ children }) {

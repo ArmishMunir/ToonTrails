@@ -7,10 +7,10 @@ function Banner() {
     >
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center gap-y-4">
-        <p className="font-mono">
+        <p className="font-mono text-sm">
           Charming cartoon adventure in creative universe.
         </p>
-        <h1 className="text-white text-9xl font-bold mb-6 typewriter-text">
+        <h1 className="text-white text-5xl md:text-9xl font-bold mb-6 typewriter-text">
           Toon Trails
         </h1>
         <div className="mt-[3%]" />

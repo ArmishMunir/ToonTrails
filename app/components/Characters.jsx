@@ -25,7 +25,7 @@ function Characters() {
     <div className="flex flex-col items-center justify-center px-[10%] py-[5%] bg-zinc-900">
       <h1 className="font-bold text-6xl pt-5 pb-[5%]">Characters</h1>
 
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
         {characters.map((character, index) => (
           <div
             className="relative bg-white shadow-md rounded-md p-4 m-2 cursor-pointer transition duration-300 transform hover:scale-105"
